@@ -1,6 +1,5 @@
 - name: "Cross-Platform Notion-like app"
   url: "https://github.com/AABelkhiria/ashnotes-app"
-  year: 2025
   sub-title: "High-Performance App with Zero-Cost"
   description: >
     Designed and developed a high-performance, cross-platform Notion-like application using Rust and Svelte, implementing a unique approach to data persistence by leveraging Git repositories.
@@ -14,8 +13,76 @@
     - Cross Platform
     - High-performance
     - Zero Hosting Costs
+- name: "Ash Registry - A Custom Rust Crate Registry"
+  url: "https://github.com/AABelkhiria/ash-registry"
+  sub-title: "Self-hosted Rust package registry with GitHub Actions integration"
+  description: >
+    Ash Registry is a self-hosted, Git-based registry for Rust crates, designed as an alternative to crates.io.
+    It supports crate hosting, making it suitable for private or internal package distribution.
+    The project includes a GitHub Actions workflow to automate publishing directly to the registry, streamlining CI/CD pipelines for Rust projects.
+  technologies:
+    - Rust
+    - Cargo
+    - GitHub Actions
+    - Self-hosted Registry
+    - CI/CD
+    - Automation
+- name: "Decorator Lib RS - Procedural Macro Decorators for Rust"
+  url: "https://github.com/AABelkhiria/decorator-lib-rs"
+  sub-title: "Function python-like decorators for behavior augmentation in Rust"
+  description: >
+    Decorator Lib is a Rust procedural macro library that provides reusable decorators for both synchronous and asynchronous functions.
+    It simplifies repetitive patterns such as error handling, and pre/post-execution hooks.
+    Designed with developer productivity in mind, the library leverages Rust's powerful macro system to reduce boilerplate.
+  technologies:
+    - Rust
+    - Procedural Macros
+    - Synchronous Functions
+    - Asynchronous Functions
+    - Error Handling
+    - Code Reusability
+- name: "Next Version - Automated Version Management for Projects"
+  url: "https://github.com/AABelkhiria/next-version"
+  sub-title: "GitHub Action for CalVer and SemVer across code and container tags"
+  description: >
+    Next Version is a GitHub Action that automates version calculation for projects using multiple strategies.
+    It supports both Calendar Versioning (CalVer) and Semantic Versioning (SemVer) for generating consistent Git tags and GitHub Container Registry (GHCR) image tags.
+    This action helps teams maintain clear version history, streamline releases, and keep container images aligned with source code versions.
+  technologies:
+    - GitHub Actions
+    - CalVer (Calendar Versioning)
+    - SemVer (Semantic Versioning)
+    - CI/CD
+    - Automation
+- name: "GitHub Service - Rust Library for GitHub Repository Content Management"
+  url: "https://github.com/AABelkhiria/github-service-rs"
+  sub-title: "Simplified GitHub API interactions for repository file operations in Rust"
+  description: >
+    GitHub Service RS is a Rust library that streamlines working with the GitHub API, focusing on repository content management.
+    It offers a clear and convenient interface for common operations such as reading, listing, creating, updating, and deleting files within a repository.
+    By abstracting low-level API details, the library enables developers to integrate GitHub content management into Rust applications with minimal boilerplate.
+  technologies:
+    - Rust
+    - GitHub API
+    - Repository Management
+    - Developer Productivity
+- name: "JobPilot – AI-Powered Chrome Extension for Job Applications"
+  url: "https://github.com/AABelkhiria/JobPilot"
+  sub-title: "Automated cover letters, fit analysis, and smart application assistance"
+  description: >
+    JobPilot is an AI-powered Chrome extension that streamlines the job application process.
+    It reads job descriptions directly from the active browser tab and uses the Google Gemini API to generate tailored cover letters, saving them as PDFs.
+    Core features include a “Rate My Fit” analysis with pros and cons, an in-page apply assistant for answering application questions, and AI-generated email drafts for spontaneous applications.
+    By using stored personal information and page context, JobPilot ensures every interaction is personalized, with real-time feedback during generation.
+  technologies:
+    - Chrome Extension
+    - JavaScript
+    - Google Gemini API
+    - AI-Powered
+    - Job Application Automation
+    - PDF Generation
+    - NLP (Natural Language Processing)
 - name: "JLL Hackathon - 2024"
-  year: 2024
   sub-title: "'One Tag': Mass Tagging Platform"
   description: >
     Designed and developed the backend for a mass tagging platform that automates the creation and management of tagged data points, significantly reducing manual effort for project implementation teams.
@@ -25,7 +92,6 @@
     - json-server
     - Rapid Prototyping
 - name: "JLL Hackathon - 2023"
-  year: 2023
   sub-title: "'Hey Stag': AI-Powered Excel Add-in for BMS Tagging & Queries"
   description: >
     Developed an innovative Microsoft Excel Add-in that leverages AI (Large Language Models) to automate Building Management System (BMS) tagging and integrates a chatbot using NLP (Natural Language Processing) to provide engineers with instant, on-demand access to BMS knowledge.
