@@ -69,9 +69,11 @@ secondary_skills:
       fullName: React
     - name: Svelte
       fullName: Svelte
-  - databases:
+  - development_tools:
     - name: APIM
       fullName: Azure API Management
+    - name: Terraform
+      fullName: Terraform
     - name: Wiz
       fullName: Wiz
     - name: PostgreSQL
