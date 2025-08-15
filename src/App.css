@@ -1,0 +1,312 @@
+.card {
+  background-color: #2D3748;
+  border: 1px solid #4A5568;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+  color: #F7FAFC;
+  font-weight: 700;
+  font-size: 2.9rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+}
+
+.card-subtitle {
+  color: #A0AEC0;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+a {
+  color: #63B3ED;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: #90CDF4;
+  text-decoration: underline;
+}
+
+.project-link {
+  color: #E2E8F0;
+}
+
+.project-link,
+.experience-role {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #E2E8F0;
+}
+
+/* General text within cards */
+.card-body p {
+  color: #E2E8F0;
+  font-size: 1.4rem;
+}
+
+/* Adjust spacing for sections within App.jsx */
+.section-title {
+  color: #F7FAFC;
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #63B3ED;
+  padding-bottom: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+.App header h1 {
+  color: #F7FAFC;
+}
+
+.App footer p {
+  color: #A0AEC0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  color: #63B3ED;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #90CDF4;
+  transform: scale(1.1);
+}
+
+.profile-picture {
+  max-width: 80%;
+  height: auto;
+  box-shadow: 0 0 15px rgba(99, 179, 237, 0.5);
+}
+
+.profile-section {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.profile-section .card-body {
+  flex-grow: 1;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .profile-section {
+    min-height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .profile-picture {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.profile-nav {
+  margin-bottom: 2rem;
+}
+
+.profile-nav .nav-link {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #90CDF4;
+  transition: color 0.3s ease;
+}
+
+.profile-nav .nav-link:hover {
+  color: #63B3ED;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.skill-box {
+  background-color: #2D3748;
+  border: 1px solid #4A5568;
+  border-radius: 8px;
+  padding: 15px;
+  min-width: 120px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.skill-box p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #E2E8F0;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+}
+
+.experience-item h3 {
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+.experience-item .company-link {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #F7FAFC;
+}
+
+.experience-item .role-item {
+  border-left: 3px solid #63B3ED;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  margin-bottom: 1.5rem;
+  border-top-left-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.experience-item .role-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.experience-item .role-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-item h4.experience-role {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.tasks-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 0;
+  color: #E2E8F0;
+  font-size: 1.2rem;
+}
+
+.tasks-list li {
+  margin-bottom: 5px;
+}
+
+.technologies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.technology-tag {
+  background-color: #4A5568;
+  color: #E2E8F0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.technology-tag:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.experience-item .role-item p.text-muted {
+  color: #E2E8F0 !important;
+}
+
+.project-item {
+  color: #F7FAFC;
+  margin-bottom: 2rem;
+  padding: 15px;
+  border: 1px solid #4A5568;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.project-item .project-title-link {
+  color: #F7FAFC;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-item .project-title-link:hover {
+  color: #63B3ED;
+  text-decoration: underline;
+}
+
+.project-item .project-year {
+  font-size: 1rem;
+  color: #A0AEC0;
+  margin-bottom: 0.5rem;
+}
+
+.project-item .project-subtitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #90CDF4;
+  margin-bottom: 1rem;
+}
+
+.project-item .project-description {
+  font-size: 1.2rem;
+  color: #E2E8F0;
+  margin-bottom: 1rem;
+}
+
+.skill-category-title {
+  color: #90CDF4;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}

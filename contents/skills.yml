@@ -1,0 +1,83 @@
+strongest_skills:
+  - programming_languages_and_frameworks:
+    - name: Python
+      fullName: Python
+    - name: Rust
+      fullName: Rust
+    - name: C
+      fullName: C
+    - name: Bash
+      fullName: Bash
+    - name: Django
+      fullName: Django
+    - name: Flask
+      fullName: Flask
+    - name: FastAPI
+      fullName: FastAPI
+    - name: Tauri
+      fullName: Tauri
+  - development_tools:
+    - name: AWS
+      fullName: Amazon Web Services
+    - name: Okta
+      fullName: Okta
+    - name: Docker
+      fullName: Docker
+    - name: Git
+      fullName: Git
+    - name: CircleCI
+      fullName: CircleCI
+    - name: Codecov
+      fullName: Codecov
+    - name: SonarQube
+      fullName: SonarQube
+    - name: Snyk
+      fullName: Snyk
+  - embedded:
+    - name: Silicon Labs
+      fullName: Silicon Labs
+    - name: NXP
+      fullName: NXP Semiconductors
+    - name: ESP32
+      fullName: ESP32
+    - name: Zephyr
+      fullName: Zephyr RTOS
+    - name: FreeRTOS
+      fullName: FreeRTOS
+    - name: Synapse
+      fullName: Synapse Wireless
+    - name: NanoPB
+      fullName: NanoPB
+    - name: FlatBuffers
+      fullName: FlatBuffers
+  - protocols_iot:
+    - name: MQTT
+      fullName: Message Queuing Telemetry Transport
+    - name: Modbus
+      fullName: Modbus
+    - name: Bacnet
+      fullName: Building Automation and Control Network
+    - name: Haystack
+      fullName: Project Haystack
+secondary_skills:
+  - programming_languages_and_frameworks:
+    - name: C++
+      fullName: C++
+    - name: TypeScript
+      fullName: TypeScript
+    - name: React
+      fullName: React
+    - name: Svelte
+      fullName: Svelte
+  - databases:
+    - name: APIM
+      fullName: Azure API Management
+    - name: Wiz
+      fullName: Wiz
+    - name: PostgreSQL
+      fullName: PostgreSQL
+  - ai:
+    - name: LLM
+      fullName: Large Language Model
+    - name: NLP
+      fullName: Natural Language Processing
