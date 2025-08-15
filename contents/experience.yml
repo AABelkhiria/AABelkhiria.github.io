@@ -1,0 +1,96 @@
+- company: "JLL/T"
+  company_url: "https://www.jllt.com/"
+  role:
+    - title: "Tech Lead"
+      start_date: "2023.10"
+      end_date: "Present"
+      tasks:
+        - Managed a team of 4 engineers and 2 tech analysts in delivering high-impact technical initiatives for Building Management System (BMS) development, using Agile/Scrum practices to ensure rapid and iterative delivery.
+        - Architected and implemented the “1 Operator, 1 Building, 1 Day” initiative—developed Django and FastAPI microservices and tooling to integrate new buildings into the BMS. Reduced integration time from 1 operational week to 1 day and cut operational costs by ~80% by transitioning from multi-engineer onboarding to a single-operator process.
+        - Designed and deployed an AWS serverless asynchronous architecture using Lambda, SQS, and EventBridge to decouple services and enable fire-and-forget request handling. Eliminated blocking calls in core workflows, improving system responsiveness and enabling parallel processing through an event-driven architecture and a Request Management Model.
+        - Developed a protocol-agnostic configuration framework decoupling building onboarding from underlying communication protocols (BACnet, Modbus, etc.), enabling a unified integration model and laying the groundwork for scalable, repeatable onboarding across diverse BMS environments.
+        - Implemented API security and governance with Azure API Management (APIM) and Okta Single Sign-On (SSO), improving API reliability, enforcing centralized authentication/authorization, and remove unauthorized access.
+      technologies:
+        - AWS (Lambda, SQS, DynamoDB, Cloudwatch, IoT Core)
+        - Django
+        - Fast API
+        - REST API
+        - Microservices
+        - Serverless
+        - APIM
+        - Okta
+        - OAuth 2.0
+        - Event-Driven Architecture
+        - CI/CD
+        - Terraform
+    - title: "Software Engineer"
+      start_date: "2022.07"
+      end_date: "2023.09"
+      tasks:
+        - Engaged in hardware certification processes for integrated BMS systems, collaborating with hardware engineers to achieve compliance with CE (EU), FCC (USA), ISED (Canada), and UKCA (Great Britain) regulatory standards.
+        - Collaborated closely with the Product and Edge teams to drive the design, implementation, and testing of Building Management Systems (BMS) tool software.
+        - Contributed to the architecture and design of the BMS tooling data flow, ensuring efficient data handling, smooth integration between components, and high system reliability.
+      technologies:
+        - Hardware Certification (CE, FCC, ISED, UKCA)
+        - Data Flow Design
+        - Edge Computing
+        - Integration Testing
+        - Modbus
+        - BACnet
+        - Haystack
+        - Cylon
+        - Trend
+        - MNet
+        - OPCDA
+        - RDM
+- company: "Envio Systems GmbH"
+  company_url: "https://www.enviosystems.com/"
+  role:
+    - title: "Embedded Software Engineer"
+      start_date: "2019.02"
+      end_date: "2022.06"
+      tasks:
+        - Contributed mainly to the development of a cross-architecture, multi-framework firmware platform for the CUBE universal IoT controller, enabling multiple application iterations and supporting diverse protocols including Bluetooth and Zigbee.
+        - Designed the core firmware architecture for a universal IoT controller, enabling scalability and hardware reuse across product lines.
+        - Implemented a secure Over-The-Air firmware update mechanism via OpenThread, enhancing device maintainability and eliminating on-site service requirements post installation.
+        - Designed, developed, and continuously improved the Gateway Application for bidirectional communication between controllers and the cloud, optimizing data transmission reliability.
+        - Built an API for handling requests and reports between end-users and IoT controllers, ensuring lightweight, efficient message serialization.
+        - Introduced a hybrid Test-Driven Development approach with automated build, test, and deployment pipelines, increasing release confidence and reducing regression bugs.
+        - Implemented core application logic for Building Management and Control Systems (BMCS), including energy optimization, system diagnostics, and communication protocol handling, ensuring efficient and reliable operation of IoT controllers.
+      technologies:
+        - C/C++
+        - Cmake
+        - ARM Cortex M3
+        - ARM Cortex M33
+        - ARM Cortex M4
+        - Silicon Labs EFM32
+        - Silicon Labs EFR32
+        - OpenThread
+        - Python
+        - MQTT
+        - Mosquitto
+        - Nanopb
+        - Git
+        - TDD
+        - Secure OTA
+        - CircleCi
+        - Codecov
+        - Sphinx
+    - title: "Embedded Software Engineer Intern"
+      start_date: "2018.07"
+      end_date: "2018.12"
+      tasks:
+        - Implemented BACnet communication protocol and refactored Modbus RTU protocol in the universal IoT controller, improving communication reliability and maintainability.
+        - Developed and deployed a generic PID-based control logic for Building Management and Control Systems (BMCS), enabling stable automated regulation of system parameters.
+        - Assisted in field installations and commissioning of IoT controllers, ensuring hardware-software integration.
+        - Supported embedded product testing and validation, identifying and resolving bugs early in the development cycle to increase product reliability.
+        - Used Doxygen to create and maintain clear, comprehensive documentation for embedded firmware and system features, improving team knowledge sharing and onboarding.
+      technologies:
+        - C/C++
+        - Python
+        - NXP LPC
+        - Synapse wireless
+        - BACnet
+        - Modbus RTU
+        - Git
+        - Doxygen

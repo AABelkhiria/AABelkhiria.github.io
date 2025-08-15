@@ -1,0 +1,38 @@
+- name: "Cross-Platform Notion-like app"
+  url: "https://github.com/AABelkhiria/ashnotes-app"
+  year: 2025
+  sub-title: "High-Performance App with Zero-Cost"
+  description: >
+    Designed and developed a high-performance, cross-platform Notion-like application using Rust and Svelte, implementing a unique approach to data persistence by leveraging Git repositories.
+    This architecture provides built-in version control for all content, allowing users to track changes, while enabling the app to run with zero hosting costs by storing data locally or synchronizing with any Git provider.
+    The project highlights expertise in modern frontend frameworks, systems programming, and innovative storage solutions, delivering both speed and flexibility without relying on centralized servers.
+  technologies:
+    - Rust
+    - Svelte
+    - Git
+    - Local Persistence
+    - Cross Platform
+    - High-performance
+    - Zero Hosting Costs
+- name: "JLL Hackathon - 2024"
+  year: 2024
+  sub-title: "'One Tag': Mass Tagging Platform"
+  description: >
+    Designed and developed the backend for a mass tagging platform that automates the creation and management of tagged data points, significantly reducing manual effort for project implementation teams.
+    Implemented using Node.js and json-server, the solution allows rapid prototyping, flexible data handling, and seamless integration with front-end tools, enabling teams to accelerate tagging workflows and improve project delivery efficiency.
+  technologies:
+    - Node.js
+    - json-server
+    - Rapid Prototyping
+- name: "JLL Hackathon - 2023"
+  year: 2023
+  sub-title: "'Hey Stag': AI-Powered Excel Add-in for BMS Tagging & Queries"
+  description: >
+    Developed an innovative Microsoft Excel Add-in that leverages AI (Large Language Models) to automate Building Management System (BMS) tagging and integrates a chatbot using NLP (Natural Language Processing) to provide engineers with instant, on-demand access to BMS knowledge.
+    Built with Node.js and the Microsoft Excel Add-in framework, the solution enabled interaction with spreadsheets, allowing users to annotate, query, and retrieve complex building system data efficiently.
+    By combining AI-driven tagging with conversational querying, the add-in drastically reduced manual data entry and accelerated engineers' ability to make informed decisions during BMS project workflows.
+  technologies:
+    - Node.js
+    - Microsoft Excel Add-in
+    - LLM (Large Language Model)
+    - NLP (Natural Language Processing)
