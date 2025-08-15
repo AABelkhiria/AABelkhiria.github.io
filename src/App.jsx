@@ -76,7 +76,6 @@ function App() {
                     <div key={groupIndex} className="mb-3">
                       <div className="d-flex flex-wrap justify-content-center gap-3">
                         {skillsInGroup.map((skill, skillIndex) => {
-                          console.log('Current skill:', skill); // Debugging line
                           return (
                           <div key={skillIndex} className="skill-box text-center p-3" title={skill.fullName}>
                             <img src={`${IMAGE_BASE_PATH}/${skill.name.toLowerCase().replace(/ /g, '_')}.png`} alt={skill.name} className="skill-icon mb-2" onError={(e) => {e.target.style.display = 'none'; }} /> 
@@ -98,7 +97,6 @@ function App() {
                   const skillsInGroup = skillGroup[groupName];
                   return (
                     <div key={groupIndex} className="mb-3">
-                      {/* <h4 className="skill-sub-category-title">{groupName.replace(/_/g, ' ')}</h4> */}
                       <div className="d-flex flex-wrap justify-content-center gap-3">
                         {skillsInGroup.map((skill, skillIndex) => {
                           console.log('Current skill:', skill); // Debugging line

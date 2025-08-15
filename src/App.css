@@ -1,3 +1,5 @@
+/* 1. Generic Page and Component Styles */
+
 .card {
   background-color: #2D3748;
   border: 1px solid #4A5568;
@@ -39,10 +41,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.project-link {
-  color: #E2E8F0;
-}
-
 .project-link,
 .experience-role {
   font-weight: 600;
@@ -56,7 +54,6 @@ a:hover {
   font-size: 1.4rem;
 }
 
-/* Adjust spacing for sections within App.jsx */
 .section-title {
   color: #F7FAFC;
   font-size: 2.7rem;
@@ -83,6 +80,33 @@ a:hover {
 .App footer p {
   color: #A0AEC0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.technologies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.technology-tag {
+  background-color: #4A5568;
+  color: #E2E8F0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.technology-tag:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* 2. Profile Component Styles */
 
 .social-links {
   display: flex;
@@ -113,6 +137,7 @@ a:hover {
   justify-content: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  text-align: justify;
 }
 
 .profile-section .card-body {
@@ -151,9 +176,7 @@ a:hover {
   text-decoration: none;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+/* 3. Skills Component Styles */
 
 .skill-box {
   background-color: #2D3748;
@@ -181,82 +204,16 @@ html {
   color: #E2E8F0;
 }
 
-.experience-item {
-  margin-bottom: 2rem;
-}
-
-.experience-item h3 {
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
-}
-
-.experience-item .company-link {
+.skill-category-title {
+  color: #90CDF4;
   font-size: 1.8rem;
-  font-weight: 700;
-  color: #F7FAFC;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
-.experience-item .role-item {
-  border-left: 3px solid #63B3ED;
-  padding-left: 15px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-left: 10px;
-  margin-bottom: 1.5rem;
-  border-top-left-radius: 8px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.experience-item .role-item:hover {
-  transform: translateX(5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-.experience-item .role-item:last-child {
-  margin-bottom: 0;
-}
-
-.experience-item h4.experience-role {
-  font-size: 1.5rem;
-  margin-bottom: 0.2rem;
-}
-
-.tasks-list {
-  list-style-type: disc;
-  margin-left: 20px;
-  padding-left: 0;
-  color: #E2E8F0;
-  font-size: 1.2rem;
-}
-
-.tasks-list li {
-  margin-bottom: 5px;
-}
-
-.technologies-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.technology-tag {
-  background-color: #4A5568;
-  color: #E2E8F0;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.technology-tag:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-.experience-item .role-item p.text-muted {
-  color: #E2E8F0 !important;
-}
+/* 4. Projects Component Styles */
 
 .project-item {
   color: #F7FAFC;
@@ -300,13 +257,65 @@ html {
   font-size: 1.2rem;
   color: #E2E8F0;
   margin-bottom: 1rem;
+  text-align: justify;
 }
 
-.skill-category-title {
-  color: #90CDF4;
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin-top: 1.5rem;
+/* 5. Experience Component Styles */
+
+.experience-item {
+  margin-bottom: 2rem;
+}
+
+.experience-item h3 {
   margin-bottom: 1rem;
-  text-align: center;
+  margin-left: 0.5rem;
+}
+
+.experience-item .company-link {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #F7FAFC;
+}
+
+.experience-item .role-item {
+  border-left: 3px solid #63B3ED;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.experience-item .role-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.experience-item .role-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-item h4.experience-role {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.tasks-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 0;
+  color: #E2E8F0;
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.tasks-list li {
+  margin-bottom: 5px;
+}
+
+.experience-item .role-item p.text-muted {
+  color: #E2E8F0 !important;
 }
